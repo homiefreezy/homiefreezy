@@ -24,12 +24,11 @@ body {
     width: 100%;
     position: relative;
 }
-
 /* Navigation Styles */
 nav {
     background-color: black;
     width: 100%;
-    padding: 10px 20px;
+    padding: 10px 10%;
     position: fixed;
     top: 0;
     z-index: 1000;
@@ -37,6 +36,8 @@ nav {
     align-items: center;
     justify-content: space-between;
 }
+
+
 
 .nav-head {
     font-size: 35px;
@@ -539,6 +540,8 @@ nav li a:hover {
     100% { left: 0; }
 }
 
+
+
 /* Mobile Responsiveness */
 @media (max-width: 968px) {
     .checkbtn {
@@ -584,6 +587,12 @@ nav li a:hover {
     .about {
         flex-direction: column;
         text-align: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+        padding: 10px 10px;
     }
 }
 
