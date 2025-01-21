@@ -132,6 +132,11 @@ nav li a:hover {
     animation: float 2.5s ease-in-out infinite;
 }
 
+.home img:hover{
+    box-shadow: 0px 0px 50px #00C7C7;
+    transition: var(--transition);
+}
+
 .description {
     max-width: 500px;
     padding: 20px;
