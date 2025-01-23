@@ -41,9 +41,10 @@ nav {
 
 
 .nav-head {
-    font-size: 35px;
+    font-size: 32px;
     letter-spacing: 1px;
     color: var(--text-white);
+    margin-left: -10rem;
 }
 
 nav ul {
